@@ -1,0 +1,15 @@
+CREATE TABLE Stars
+(
+StarsID int,
+    starID varchar(8),
+    magnitude float(),
+    rightAscension float(),
+    declination float(),
+    description varchar(30)
+);
+CREATE TABLE commonNames
+(
+    commonNamesID int,
+    starID varchar(8),
+    otherNames varchar(30),
+);
